@@ -30,7 +30,7 @@ The features obtained through this analysis are normalized to fall between -1 an
 
 The original data set stores the information needed to parse the data set across several files.  The actual observations of the features are in the files `train/X_train.txt` and `test/X_test.txt`.  Those files lack column names.  The column names for the `X_` files are in `features.txt`.  
 
-The activities that the rows of the `X_` correspond to are stored in `train/y_train.txt` and `test/y_test.txt`.  The activities are coded as numbers in the `y_` files.  The activities that the numbers correspond to are listed in `activity_labels.txt`.
+The activities that the rows of the `X_` files correspond to are stored in `train/y_train.txt` and `test/y_test.txt`.  The activities are coded as numbers in the `y_` files.  The activities that the numbers correspond to are listed in `activity_labels.txt`.
 
 The subjects performing the actions for each observation are stored in `train/subject_train.txt` and `test/subject_test.txt`.
 

@@ -3,7 +3,9 @@
 #from the main folder that contains the raw data.
 
 #Pull in some libraries
-library(dplyr, tidyr, data.table)
+library(dplyr)
+library(tidyr)
+library(data.table)
 
 #--------------------------------#
 #- Get the names of the columns -#
